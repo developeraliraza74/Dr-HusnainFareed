@@ -628,7 +628,7 @@
 
       form.addEventListener("submit", function (e) {
         e.preventDefault();
-        status.textContent = "Sending...";
+        status.textContent = "Booking...";
         status.style.color = "#e0e0e0";
 
         fetch(scriptURL, { method: "POST", body: new FormData(form) })
@@ -646,4 +646,5 @@
     </script>
   </body>
 </html>
+
 
