@@ -472,6 +472,8 @@
                   type="tel"
                   id="phone"
                   name="phone"
+                  maxlength="10"
+                  oninput="this.value = this.value.replace(/[^0-9]/g, '');"
                   class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500"
                 />
               </div>
@@ -694,6 +696,7 @@
 </script>
   </body>
 </html>
+
 
 
 
